@@ -15,6 +15,7 @@ class Variacao{
    +setSigla(String sigla1) : void
    +getProduto() : String
    +setProduto(String produto1) : void
+   +toString() : String
 }
 class Tentativa3{
     main()
