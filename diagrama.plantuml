@@ -1,0 +1,24 @@
+@startuml
+class Variacao{
+   - monthlyV: double
+   - mês: int
+   - estado: String
+   - sigla : String
+   - produto : String
+   +getVar() : double
+   +setVar(double var1) : void
+   +getMes() : int
+   +setMes(int mes1) : void
+   +getEstado() : String
+   +setEstado(String estado1) : void
+   +getSigla() : String
+   +setSigla(String sigla1) : void
+   +getProduto() : String
+   +setProduto(String produto1) : void
+}
+class Tentativa3{
+    main()
+}
+Variacao -- Tentativa3
+
+@enduml
